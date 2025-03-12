@@ -42,6 +42,14 @@ Now we will use wireshark to filter for DHCP. DHCP is the Dynamic Host Configura
 
 ![image](https://github.com/user-attachments/assets/67117574-087e-4cd4-ae93-c2f5e2b011d2)
 
+Now we are going to set wireshark to filter for DNS traffic. We will start DNS traffic by using the command "nslookup disney.com". 
+
+![image](https://github.com/user-attachments/assets/316e8a1e-33ed-4571-b324-c6fe0c1e2d27)
+
+Finally, we will filter for RDP traffic. When we enter tcp.port==3389 traffic is spammed non stop because we are using Remote Desktop Protocol to connect to our Virtual Machine.
+
+![image](https://github.com/user-attachments/assets/da0f6cb2-265e-41da-b555-39f7eac36061)
+
 
 
 
